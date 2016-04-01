@@ -1,0 +1,6 @@
+rootProject.name = 'stan'
+include 'stan_dao'
+include 'stan_common'
+include 'stan_service'
+include 'stan_web'
+

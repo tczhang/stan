@@ -1,0 +1,14 @@
+allprojects{
+    group = 'com.dolphin'
+    version = '0.1-SNAPSHOT'
+}
+
+subprojects{
+    apply plugin: 'idea'
+
+    repositories {
+        mavenCentral()
+        mavenLocal()
+    }
+
+}
